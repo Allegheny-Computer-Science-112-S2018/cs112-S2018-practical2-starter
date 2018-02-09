@@ -23,32 +23,27 @@ PROBLEMS?
 # cs112-S2018-practical2-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the starter for Practical 2 in Computer Science 112.
-
-<!---
-
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- programmer is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
-
---->
+repository contains the starter for Practical 2 in Computer Science 112. Since
+the Travis builds for this repository will initially fail (as evidenced by a
+red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
+programmer is responsible for completing all of the steps needed to satisfy the
+requirements for the assignment, thus causing a &#x2714; to instead appear in
+the commit logs.
 
 ## Introduction
 
 This assignment requires a programmer to implement and test a Java program,
-called `Swap`, that will produce six lines of output. For this assignment, the
+called `StatisticsCalculator`, that will produce six lines of output. For this assignment, the
 programmer must implement a swapping method that accepts parameters of type
 `AtomicInteger`. The programmer is also responsible for learning how to run and
 extend a test suite written in the JUnit testing framework, as explained in
 Section 1.9. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
-`Swap.java` and `TestSwap.java` files must adhere to all of the
+`StatisticsCalculator.java` and `TestStatisticsCalculator.java` files must adhere to all of the
 requirements in the [Google Java Style
 Guide](https://google.github.io/styleguide/javaguide.html).
 
-The source code in the `Swap.java` file must also pass additional tests set by
+The source code in the `StatisticsCalculator.java` file must also pass additional tests set by
 the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). GatorGrader
 will also check that your program performs the correct computation and produces
 the expected output for a single call of the `swap` method. More details about
@@ -130,31 +125,35 @@ typing `cd ..` and then continuing your work.
 ## Output
 
 Typing the command `gradle run` in the terminal window produces the following
-output for the instructor's version of `Swap`. Since this program does not read
-input from the user, it should produce exactly the same output when you run the
-program.
+output for the instructor's version of `StatisticsCalculator`. Since this
+program does not read input from the user, it should produce exactly the same
+output when you run the program.
 
 ```
-Values before the swap:
-  First value : 10
-  Second value: 20
-Values after the swap:
-  First value : 20
-  Second value: 10
+Displaying the values in the array.
+  12.5
+  6.2
+  1.5
+  2.9
+  10.8
+Displaying the output with two decimal places.
+This is the arithmetic mean: 6.78
+This is the variance: 23.04
+This is the standard deviation: 4.80
 ```
 
 ## Checking
 
 In addition to making the checks that are mentioned in the introduction to this
-document, your `Swap.java` must:
+document, your `StatisticsCalculator.java` must:
 
 - Contain at least three multi-line comments in the JavaDoc standard.
 - Contains six `println` statements that produce six lines of output.
-- Pass all of the test cases defined in the `TestSwap.java` file.
+- Pass all of the test cases defined in the `TestStatisticsCalculator.java` file.
 
-Your `TestSwap.java` file and the repository must also pass these checks:
+Your `TestStatisticsCalculator.java` file and the repository must also pass these checks:
 
-- The `TestSwap.java` file must contain a total of three `@Test` annotations.
+- The `TestStatisticsCalculator.java` file must contain a total of three `@Test` annotations.
 - The GitHub repository must contain at minimum three new commits with
   descriptive messages.
 
