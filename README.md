@@ -152,7 +152,7 @@ In addition to making the checks that are mentioned in the introduction to this
 document, your `StatisticsCalculator.java` must:
 
 - Contain at least five multi-line comments in the JavaDoc standard.
-- Contains five `println` statements that produce the ten lines of output.
+- Contain five `println` statements that produce the ten lines of output.
 - Produce output containing the numerical values `6.78`, `23.04`, and `4.80`.
 - Pass all of the test cases defined in the `TestStatisticsCalculator.java` file.
 - Also, the GitHub repository must contain at minimum three new commits with
