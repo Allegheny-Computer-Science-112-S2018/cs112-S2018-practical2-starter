@@ -151,14 +151,11 @@ This is the standard deviation: 4.80
 In addition to making the checks that are mentioned in the introduction to this
 document, your `StatisticsCalculator.java` must:
 
-- Contain at least three multi-line comments in the JavaDoc standard.
-- Contains six `println` statements that produce six lines of output.
+- Contain at least five multi-line comments in the JavaDoc standard.
+- Contains five `println` statements that produce the ten lines of output.
+- Produce output containing the numerical values `6.78`, `23.04`, and `4.80`.
 - Pass all of the test cases defined in the `TestStatisticsCalculator.java` file.
-
-Your `TestStatisticsCalculator.java` file and the repository must also pass these checks:
-
-- The `TestStatisticsCalculator.java` file must contain a total of three `@Test` annotations.
-- The GitHub repository must contain at minimum three new commits with
+- Also, the GitHub repository must contain at minimum three new commits with
   descriptive messages.
 
 ## Updates
