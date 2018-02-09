@@ -33,22 +33,23 @@ the commit logs.
 ## Introduction
 
 This assignment requires a programmer to implement and test a Java program,
-called `StatisticsCalculator`, that will produce six lines of output. For this assignment, the
-programmer must implement a swapping method that accepts parameters of type
-`AtomicInteger`. The programmer is also responsible for learning how to run and
-extend a test suite written in the JUnit testing framework, as explained in
-Section 1.9. As verified by
+called `StatisticsCalculator`, that will produce ten lines of output. For this
+assignment, the programmer must implement a variance calculating method that
+accepts an array of `Double` values. The programmer is also responsible for
+learning how to run and and fully understand a test suite written in the JUnit
+testing framework, as explained in Section 1.9 of the textbook. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
-`StatisticsCalculator.java` and `TestStatisticsCalculator.java` files must adhere to all of the
-requirements in the [Google Java Style
+`StatisticsCalculator.java` and `TestStatisticsCalculator.java` files must
+adhere to all of the requirements in the [Google Java Style
 Guide](https://google.github.io/styleguide/javaguide.html).
 
-The source code in the `StatisticsCalculator.java` file must also pass additional tests set by
-the [GatorGrader tool](https://github.com/gkapfham/gatorgrader). GatorGrader
-will also check that your program performs the correct computation and produces
-the expected output for a single call of the `swap` method. More details about
-the GatorGrader checks are included later in this document and in the carefully
-formatted assignment sheet.
+The source code in the `StatisticsCalculator.java` file must also pass
+additional tests set by the [GatorGrader
+tool](https://github.com/gkapfham/gatorgrader). GatorGrader will also check
+that your program performs the correct computation and produces the expected
+output for calls to all of the method that compute summary statistics. More
+details about the GatorGrader checks are included later in this document and in
+the carefully formatted assignment sheet.
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
@@ -77,12 +78,15 @@ Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
 guides will help you to understand how to use both [GitHub](http://github.com) and
 [GitHub Classroom](https://classroom.github.com/).
 
-To do well on this assignment, you should also review Chapter 1 of the course
-textbook, paying close attention to Sections 1.1 through 1.3. Students who want
-to learn more about how the provided source code uses packages are encouraged to
-read Section 1.8 of the textbook. Please see the course instructor or one of the
-teaching assistants or tutors if you have questions about any of these reading
-assignments.
+To do well on this assignment, you should also review Chapters 1 through 3 of
+the course textbook, paying close attention to the material about arrays and
+the computation of values with equations. Students who want to learn more about
+how the provided source code uses JUnit are encouraged to read Section 1.9 of
+the textbook. Finally, students should read the [Calculating Variance of a
+Sample](https://www.wikihow.com/Calculate-Variance) article to learn more about
+how to calculate the variance of an array of `Double` values. Please see the
+course instructor or one of the teaching assistants or tutors if you have
+questions about any of these reading assignments.
 
 ## Commands
 
