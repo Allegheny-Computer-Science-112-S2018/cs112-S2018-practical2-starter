@@ -47,7 +47,7 @@ The source code in the `StatisticsCalculator.java` file must also pass
 additional tests set by the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader). GatorGrader will also check
 that your program performs the correct computation and produces the expected
-output for calls to all of the method that compute summary statistics. More
+output for calls to all of the methods that compute summary statistics. More
 details about the GatorGrader checks are included later in this document and in
 the carefully formatted assignment sheet.
 
@@ -79,10 +79,10 @@ guides will help you to understand how to use both [GitHub](http://github.com) a
 [GitHub Classroom](https://classroom.github.com/).
 
 To do well on this assignment, you should also review Chapters 1 through 3 of
-the course textbook, paying close attention to the material about arrays and
-the computation of values with equations. Students who want to learn more about
-how the provided source code uses JUnit are encouraged to read Section 1.9 of
-the textbook. Finally, students should read the [Calculating Variance of a
+the course textbook, paying close attention to the material about operators,
+expressions, `for` loops, and arrays. Students who want to learn more about how
+the provided source code uses JUnit are encouraged to read Section 1.9 of the
+textbook. Finally, students should read the [Calculating Variance of a
 Sample](https://www.wikihow.com/Calculate-Variance) article to learn more about
 how to calculate the variance of an array of `Double` values. Please see the
 course instructor or one of the teaching assistants or tutors if you have
