@@ -9,11 +9,6 @@ import java.text.DecimalFormat;
  */
 public class StatisticsCalculator {
 
-  /**
-   * Calculates the arithmetic mean of Double values in an array.
-   *
-   * @param timings the list of Double values from timing an algorithm
-   */
   public static Double calculateArithmeticMean(Double[] timings) {
     double runningTotal = 0.0;
     for (int i = 0; i < timings.length; i++) {
