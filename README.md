@@ -20,10 +20,10 @@ PROBLEMS?
 
 -->
 
-# cs112-S2018-practical1-solution
+# cs112-S2018-practical2-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Practical 1 in Computer Science 112.
+repository contains the starter for Practical 2 in Computer Science 112.
 
 <!---
 
@@ -165,7 +165,7 @@ you would like to receive these updates, then you can type this command in the
 main directory for this assignment:
 
 ```
-./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-112-S2018/cs112-S2018-practical1-starter.git
+./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-112-S2018/cs112-S2018-practical2-starter.git
 ```
 
 You should only need to type this command once; typing the command additional
@@ -207,8 +207,8 @@ developed for the following software and versions:
 ## Problems
 
 If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 112 Practical 1
-Starter](https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-practical1-starter)
+you can go to the [Computer Science 112 Practical 2
+Starter](https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-practical2-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
